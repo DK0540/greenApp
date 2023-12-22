@@ -1,0 +1,248 @@
+.user-container {
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 6, 6);
+    height: 800px; /* Set the screen height */
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .header {
+    background-color: #59d9cc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .burger-icon,
+  .dots-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .search-icon {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .headername{
+    font-size: 20px;
+    color: white;
+  }
+
+
+/*my css*/
+.headbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.headall{
+    width: 94px;
+    background-color: #59d9cc;
+    height: 28px;
+    border-radius: 12px 0 0 12px;
+    font-weight: 500;
+    color: white;
+}
+
+.headpen{
+    width: 94px;
+    background-color: rgb(163, 163, 163);
+    height: 28px;
+    border-radius: 0px 12px 12px 0px;
+    font-weight: 500;
+    color: white;
+}
+.userdatas{
+    background-color: rgba(255, 255, 255, 0.048);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grayuser{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(224, 216, 216);
+}
+
+.lightuser{
+    width: 95%;
+    height: 70px;
+    background-color: rgb(250, 249, 249);
+}
+
+.dive-element {
+    width: 182px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 86.6px  solid #59d9cc;
+    margin-left: 108px;
+    margin-top: 37px;
+  }
+
+  .dive-icons{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1px;
+    position: relative;
+    top: 6px;
+  }
+
+  .dive-vid{
+    width: 72px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    left: 106px;
+    top: -17px;
+  }
+  .camera-vidicon{
+    padding: 1px;
+  }
+
+  .graymen{
+    position: absolute;
+    color: black;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+
+  /*webcam*/
+  /* userPage.css */
+
+/* userPage.css */
+
+/* ... (previous styles) */
+
+/* Webcam styles */
+.webcam-container {
+  width: 200px;
+  margin-top: -60px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Add a background color for better visibility */
+    z-index: 999; /* Set a high z-index to ensure it appears above other elements */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a popup effect */
+  }
+}
+
+/* Retake and Save buttons */
+.review-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button.retake {
+    background-color: #ff6b6b;
+    color: white;
+  }
+
+  button.save {
+    background-color: #4caf50;
+    color: white;
+  }
+}
+
+/* ... (other styles) */
+
+/* userPage.css */
+
+/* ... (previous styles) */
+
+/* Overlay styles */
+/* userPage.css */
+
+/* ... (other styles) */
+
+.overlay-container {
+  max-width: 360px; /* Set the maximum width for the overlay */
+  margin: auto; /* Center the overlay horizontally */
+  position: fixed; /* Fix the position of the overlay */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 999; /* Ensure the overlay is on top of other elements */
+}
+
+/* ... (other styles) */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.overlay img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.review-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* ... (other styles) */
+
+
+.camera-vidicon {
+  padding: 1px;
+  cursor: pointer;
+}

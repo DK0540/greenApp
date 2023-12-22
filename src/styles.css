@@ -1,0 +1,8 @@
+@media (max-width: 360px) {
+    /* Your responsive styles go here */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Add more responsive styles as needed */
+  }
